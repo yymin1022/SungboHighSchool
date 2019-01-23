@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:background="@android:color/white"
+	android:orientation="vertical">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:gravity="center"
+		android:paddingTop="5dp">
+
+		<TextView
+			android:id="@+id/mCalender"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:text="2000년 00월 00일"
+			android:textColor="@android:color/black"
+			android:textSize="20dp"/>
+
+		<TextView
+			android:layout_marginLeft="10dp"
+			android:id="@+id/mDayOfTheWeek"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:text="월요일"
+			android:textColor="@android:color/black"
+			android:textSize="20dp"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:layout_marginRight="5dp"
+		android:layout_marginLeft="5dp">
+		
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:orientation="vertical">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_horizontal"
+				android:layout_marginTop="30dp"
+				android:text="점심"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:textSize="20dp"
+				android:textColor="#aaaaaa"
+				android:textStyle="bold"/>
+	
+			<TextView
+				android:id="@+id/mLunch"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_horizontal"
+				android:layout_marginTop="15dp"
+				android:textColor="#aaaaaa"
+				android:textSize="15dp"/>
+		
+		</LinearLayout>
+		
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:orientation="vertical">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_horizontal"
+				android:layout_marginTop="30dp"
+				android:text="저녁"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:textSize="20dp"
+				android:textColor="#aaaaaa"
+				android:textStyle="bold"/>
+
+			<TextView
+				android:id="@+id/mDinner"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_horizontal"
+				android:layout_marginTop="15dp"
+				android:textColor="#aaaaaa"
+				android:textSize="15dp"/>
+		
+		</LinearLayout>
+			
+	</LinearLayout>
+	
+	<View
+		android:layout_width="match_parent"
+		android:layout_height="1dp"
+		android:background="#aaaaaa" />
+
+</LinearLayout>

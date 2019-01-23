@@ -1,0 +1,317 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:background="#FFFFFF">
+
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical">
+			
+			<androidx.cardview.widget.CardView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="5dp"
+				android:theme="@style/Theme.AppCompat.Light"
+				android:orientation="vertical">
+
+				<LinearLayout
+					android:id="@+id/layout_info1"
+					android:layout_width="match_parent"
+					android:layout_marginRight="20dp"
+					android:layout_marginLeft="20dp"
+					android:layout_marginTop="20dp"
+					android:layout_marginBottom="20dp"
+					android:layout_height="wrap_content"
+					android:orientation="vertical"
+					android:gravity="center_vertical">
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_gravity="center_horizontal"
+						android:id="@+id/tv_info1"
+						android:textColor="#1565c0"
+						android:textStyle="bold"
+						android:textSize="20dp"
+						android:text="교훈"/>
+
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:orientation="horizontal">
+
+						<ImageView
+							android:layout_width="90dp"
+							android:layout_height="90dp"
+							android:layout_gravity="center_vertical"
+							android:layout_marginRight="10dp"
+							android:layout_marginLeft="10dp"
+							android:id="@+id/info1"
+							android:background="@drawable/info_1"/>
+
+						<TextView
+							android:layout_marginTop="10dp"
+							android:layout_marginBottom="10dp"
+							android:layout_marginRight="10dp"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_gravity="center_vertical"
+							android:textColor="#808080"
+							android:text="자율 - 자주적인 판단력,올바른 주인의식,도덕적 책임감\n\n협동 - 질서있는 행동력,우애있는 행동,학교사랑하는 마음\n\n봉사 - 깨끗한 마음씨,너그러운 이해심,부지런한 생활태도"/>
+
+					</LinearLayout>
+
+				</LinearLayout>
+			
+			</androidx.cardview.widget.CardView>
+
+			<androidx.cardview.widget.CardView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="5dp"
+				android:theme="@style/Theme.AppCompat.Light"
+				android:orientation="vertical">
+
+				<LinearLayout
+					android:id="@+id/layout_info2"
+					android:layout_width="match_parent"
+					android:layout_marginRight="20dp"
+					android:layout_marginLeft="20dp"
+					android:layout_marginTop="20dp"
+					android:layout_marginBottom="20dp"
+					android:layout_height="wrap_content"
+					android:orientation="vertical"
+					android:gravity="center_vertical">
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_gravity="center_horizontal"
+						android:id="@+id/tv_info2"
+						android:textColor="#1565c0"
+						android:textStyle="bold"
+						android:textSize="20dp"
+						android:text="교표"/>
+
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:orientation="horizontal">
+
+						<ImageView
+							android:layout_width="90dp"
+							android:layout_height="90dp"
+							android:layout_gravity="center_vertical"
+							android:layout_marginRight="10dp"
+							android:layout_marginLeft="10dp"
+							android:id="@+id/info2"
+							android:background="@drawable/info_2"/>
+
+
+						<TextView
+							android:layout_marginTop="10dp"
+							android:layout_marginBottom="10dp"
+							android:layout_marginRight="10dp"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_gravity="center_vertical"
+							android:textColor="#808080"
+							android:text="교표의 모양과 빛깔은 동양철학의 원천인 주역의 원리에 근거하여 창안한 것이다.\n\n테두리 : 하늘과 땅의 만남\n삼각형 : 위가 홀수고 아래가 짝수인 것은 사람의 모양을 형상화 한 것이다. 하늘과 땅 사이에 조화롭게 삶을 사는 사람\n파랑색 : 성실, 진실, 냉정"/>
+
+
+					</LinearLayout>
+
+				</LinearLayout>
+			
+			</androidx.cardview.widget.CardView>
+
+			<androidx.cardview.widget.CardView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="5dp"
+				android:theme="@style/Theme.AppCompat.Light"
+				android:orientation="vertical">
+
+				<LinearLayout
+					android:id="@+id/layout_info3"
+					android:layout_width="match_parent"
+					android:layout_marginRight="20dp"
+					android:layout_marginLeft="20dp"
+					android:layout_marginTop="20dp"
+					android:layout_marginBottom="20dp"
+					android:layout_height="wrap_content"
+					android:orientation="vertical"
+					android:gravity="center_vertical">
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_gravity="center_horizontal"
+						android:id="@+id/tv_info3"
+						android:textColor="#1565c0"
+						android:textStyle="bold"
+						android:textSize="20dp"
+						android:text="교기"/>
+
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:orientation="horizontal">
+
+						<ImageView
+							android:layout_width="90dp"
+							android:layout_height="90dp"
+							android:layout_gravity="center_vertical"
+							android:layout_marginRight="10dp"
+							android:layout_marginLeft="10dp"
+							android:id="@+id/info3"
+							android:background="@drawable/info_3"/>
+
+						<TextView
+							android:layout_marginTop="10dp"
+							android:layout_marginBottom="10dp"
+							android:layout_marginRight="10dp"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_gravity="center_vertical"
+							android:textColor="#808080"
+							android:text="청색은 원래 성실,진실,냉정을 상징하니 냉철한 이성을 바탕으로 진실하고 성실하며 밝고 넓은 마음을 갖고, 우주의 이상적인 세계를 구현하며, 그 속에서 조화롭게 사는 인간의 육성을 목표로 하는 본교의 교육 이상을 나타낸다."/>
+
+
+					</LinearLayout>
+
+				</LinearLayout>
+			
+			</androidx.cardview.widget.CardView>
+
+			<androidx.cardview.widget.CardView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="5dp"
+				android:theme="@style/Theme.AppCompat.Light"
+				android:orientation="vertical">
+
+
+				<LinearLayout
+					android:id="@+id/layout_info4"
+					android:layout_width="match_parent"
+					android:layout_marginRight="20dp"
+					android:layout_marginLeft="20dp"
+					android:layout_marginTop="20dp"
+					android:layout_marginBottom="20dp"
+					android:layout_height="wrap_content"
+					android:orientation="vertical"
+					android:gravity="center_vertical">
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_gravity="center_horizontal"
+						android:id="@+id/tv_info4"
+						android:textColor="#1565c0"
+						android:textStyle="bold"
+						android:textSize="20dp"
+						android:text="교화"/>
+
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:orientation="horizontal">
+
+						<ImageView
+							android:layout_width="90dp"
+							android:layout_height="90dp"
+							android:layout_gravity="center_vertical"
+							android:layout_marginRight="10dp"
+							android:layout_marginLeft="10dp"
+							android:id="@+id/info4"
+							android:background="@drawable/info_4"/>
+
+						<TextView
+							android:layout_marginTop="10dp"
+							android:layout_marginBottom="10dp"
+							android:layout_marginRight="10dp"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_gravity="center_vertical"
+							android:textColor="#808080"
+							android:text="모란 : 소망과 보람, 부귀, 기대되는 성취, 불처럼 타오르는 정열로 적극적으로 살아가는 성보인의 상징이다."/>
+
+
+					</LinearLayout>
+
+				</LinearLayout>
+			
+			</androidx.cardview.widget.CardView>
+
+			<androidx.cardview.widget.CardView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="5dp"
+				android:theme="@style/Theme.AppCompat.Light"
+				android:orientation="vertical">
+
+				<LinearLayout
+					android:id="@+id/layout_info5"
+					android:layout_width="match_parent"
+					android:layout_marginRight="20dp"
+					android:layout_marginLeft="20dp"
+					android:layout_marginTop="20dp"
+					android:layout_marginBottom="20dp"
+					android:layout_height="wrap_content"
+					android:orientation="vertical"
+					android:gravity="center_vertical">
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_gravity="center_horizontal"
+						android:id="@+id/tv_info5"
+						android:textColor="#1565c0"
+						android:textStyle="bold"
+						android:textSize="20dp"
+						android:text="교목"/>
+
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:orientation="horizontal">
+
+						<ImageView
+							android:layout_width="90dp"
+							android:layout_height="90dp"
+							android:layout_gravity="center_vertical"
+							android:layout_marginRight="10dp"
+							android:layout_marginLeft="10dp"
+							android:id="@+id/info5"
+							android:background="@drawable/info_5"/>
+
+						<TextView
+							android:layout_marginTop="10dp"
+							android:layout_marginBottom="10dp"
+							android:layout_marginRight="10dp"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_gravity="center_vertical"
+							android:textColor="#808080"
+							android:text="은행나무 : 기풍은 청아 준수하고 잎, 열매, 나무 등 전체가 쓸모있어 개척적인 삶과 무궁한 발전을 지향하는 성보인을 상징한다."/>
+
+
+					</LinearLayout>
+
+				</LinearLayout>
+			
+			</androidx.cardview.widget.CardView>
+
+		</LinearLayout>
+
+	</ScrollView>
+
+</LinearLayout>

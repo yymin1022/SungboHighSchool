@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest
+	xmlns:android="http://schemas.android.com/apk/res/android" package="com.sungbospot.lunch">
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+	<uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <application
+		android:allowBackup="true"
+		android:icon="@drawable/logo"
+		android:label="@string/app_name"
+		android:theme="@style/AppTheme">
+
+		<uses-library android:name="com.google.android.maps" />
+
+		<meta-data
+			android:name="com.google.android.geo.API_KEY"
+			android:value="AIzaSyBP4rEUADXstKFIfs2GEBvKeC7CoBMdti0" />
+
+    	<activity
+			android:name=".ActivityMain"
+			android:label="@string/app_name">
+    		<intent-filter>
+    			<action
+					android:name="android.intent.action.MAIN" />
+    			<category
+					android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+    	<activity
+			android:name=".ActivityPermission"/>
+		<activity
+			android:name=".ActivityMeal"/>
+		<activity
+			android:name=".ActivityBus"/>
+    	<activity
+			android:name=".ActivitySplash"
+			android:theme="@style/SplashTheme"/>
+    	<activity
+			android:name=".ActivityNotice"/>
+    	<activity
+			android:name=".ActivitySchoolinfo"/>
+    	<activity
+			android:name=".ActivityMap"/>
+    	<activity
+			android:name=".ActivityDevinfo"/>
+	</application>
+</manifest>

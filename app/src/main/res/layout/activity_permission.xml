@@ -1,0 +1,22 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:background="#00ABFF"
+	android:gravity="center">
+	<TextView
+		android:text="@string/permission"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textSize="25sp"
+		android:textColor="#ffffff"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:text="@string/allowpermission"
+		android:layout_width="wrap_content"
+		android:onClick="perm"/>
+
+</LinearLayout>
+

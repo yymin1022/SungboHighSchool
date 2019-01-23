@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#ffffffff"
+	android:orientation="vertical"
+	android:gravity="center">
+
+	<ImageView
+		android:src="@drawable/defcon_logo"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_weight="1"/>
+	
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_weight="1"
+		android:orientation="vertical"
+		android:gravity="center_horizontal">
+		
+		<TextView
+			android:text="/*최초 개발*/"
+			android:textSize="20dp"
+			android:textColor="@android:color/black"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="5dp"/>
+
+		<TextView
+			android:text="Coding : 유용민(2016), 김영현(2016)"
+			android:textSize="15dp"
+			android:textColor="@android:color/darker_gray"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+
+		<TextView
+			android:text="Design : 유용민(2016), 김영현(2016), 정승민(2016)"
+			android:textSize="15dp"
+			android:textColor="@android:color/darker_gray"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+
+		<TextView
+			android:text="/*유지 및 보수*/"
+			android:textSize="20dp"
+			android:textColor="@android:color/black"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="5dp"/>
+
+		<TextView
+			android:text="Coding : 유용민(2016), 김영현(2016)"
+			android:textSize="15dp"
+			android:textColor="@android:color/darker_gray"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+
+		<TextView
+			android:text="Design : 유용민(2016), 김영현(2016), 정승민(2016)"
+			android:textSize="15dp"
+			android:textColor="@android:color/darker_gray"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+
+		<TextView
+			android:text="/*Special Thanks To*/"
+			android:textSize="20dp"
+			android:textColor="@android:color/black"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="5dp"/>
+
+		<TextView
+			android:text="Android Meal Library : Mir"
+			android:textSize="15dp"
+			android:textColor="@android:color/darker_gray"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+
+		<TextView
+			android:text="HTML Parser : Jericho"
+			android:textSize="15dp"
+			android:textColor="@android:color/darker_gray"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+		
+	</LinearLayout>
+
+</LinearLayout>
