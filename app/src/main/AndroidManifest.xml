@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <manifest
-	xmlns:android="http://schemas.android.com/apk/res/android" package="com.sungbospot.lunch">
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	package="com.sungbospot.lunch">
 
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.BOOT_COMPLETED" />
@@ -16,7 +18,8 @@
 		android:allowBackup="true"
 		android:icon="@drawable/logo"
 		android:label="@string/app_name"
-		android:theme="@style/AppTheme">
+		android:theme="@style/AppTheme"
+		tools:ignore="GoogleAppIndexingWarning">
 
 		<uses-library android:name="com.google.android.maps" />
 

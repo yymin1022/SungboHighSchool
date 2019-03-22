@@ -179,7 +179,7 @@ public class ActivityMain extends AppCompatActivity
 
     private class getWeather extends AsyncTask<String, Void, Document>
     {
-        String page = "http://api.wunderground.com/api/b6671f0269c4e83e/conditions/forecast/alert/q/37.4798,126.919631.xml";
+        String page = "https://api.wunderground.com/api/b6671f0269c4e83e/conditions/forecast/alert/q/37.4798,126.919631.xml";
         String temp = "";
         String weather = "";
 
