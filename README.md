@@ -1,4 +1,7 @@
 # 성보고등학교 애플리케이션
+## 이 프로젝트는 종료되었으며, 다음 링크에서 새 버전을 확인해주세요.
+## https://github.com/yymin1022/SungboHighSchool_New
+
 ## 스크린샷
 ### 메인화면
 ![Search&List](./ScreenShots/app_main.png)
